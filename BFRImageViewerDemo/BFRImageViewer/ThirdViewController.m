@@ -7,8 +7,7 @@
 //
 
 #import "ThirdViewController.h"
-#import "BFRImageTransitionAnimator.h"
-#import "BFRImageViewController.h"
+@import BFRImageViewer;
 
 @interface ThirdViewController ()
 

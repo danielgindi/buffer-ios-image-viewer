@@ -8,7 +8,7 @@
 
 #import <Photos/Photos.h>
 #import "FifthViewController.h"
-#import "BFRImageViewController.h"
+@import BFRImageViewer;
 
 @interface FifthViewController () <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 

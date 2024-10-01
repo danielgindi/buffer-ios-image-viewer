@@ -7,7 +7,7 @@
 //
 
 #import "SecondViewController.h"
-#import "BFRImageViewController.h"
+@import BFRImageViewer;
 
 @interface SecondViewController ()
 @property (strong, nonatomic) NSArray *imgURLs;

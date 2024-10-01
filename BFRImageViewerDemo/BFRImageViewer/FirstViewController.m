@@ -7,7 +7,7 @@
 //
 
 #import "FirstViewController.h"
-#import "BFRImageViewController.h"
+@import BFRImageViewer;
 
 @interface FirstViewController ()
 @property (strong, nonatomic) NSURL *imgURL;

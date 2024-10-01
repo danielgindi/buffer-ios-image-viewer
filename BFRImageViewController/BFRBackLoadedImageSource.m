@@ -9,8 +9,11 @@
 #import "BFRBackLoadedImageSource.h"
 #import "BFRImageViewerConstants.h"
 #import <UIKit/UIKit.h>
-#import <PINRemoteImage/PINRemoteImage.h>
+#ifdef COCOAPODS
 #import <PINRemoteImage/PINImageView+PINRemoteImage.h>
+#else
+@import PINRemoteImage;
+#endif
 
 @interface BFRBackLoadedImageSource()
 

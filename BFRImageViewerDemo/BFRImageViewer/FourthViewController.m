@@ -7,8 +7,7 @@
 //
 
 #import "FourthViewController.h"
-#import "BFRBackLoadedImageSource.h"
-#import "BFRImageViewController.h"
+@import BFRImageViewer;
 
 @interface FourthViewController ()
 
